@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Changed to viewport height */
+}
+
+.total {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  background-color: floralwhite;
+  border: 1px solid lightgray;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex; /* Added */
+  flex-direction: column; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
+}
+
+.total > h2 {
+  color: plum;
+}
+
+#profile-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#profile-form input,
+#profile-form select {
+  width: 100%;
+  height: 32px;
+  padding: 4px;
+  margin-bottom: 16px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+#profile-form button {
+  width: 100%;
+  height: 40px;
+  background-color: plum;
+  border: 1px solid plum;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+}
